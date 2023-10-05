@@ -28,45 +28,46 @@ const Hero = () => {
           />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm <span className="text-[#915eff]">Himanshu</span>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            {" "}
+            Hi, I'm <span className="text-[#915eff]">Himanshu</span>
           </h1>
-            <p className={`${styles.heroSubText} mt-2
-            text-white-100 `}>
-              i am   web developer,
-              this is my first project using three.js,<br className="sm:block hidden"/> makeing a 3D portfolio.
-
-            </p>
+          <p
+            className={`${styles.heroSubText} mt-2
+            text-white-100 `}
+          >
+            i am web developer, this is my first project using three.js,
+            <br className="sm:block hidden" /> makeing a 3D portfolio.
+          </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <ComputersCanvas  />
 
-        <div className="absolute xs:bottom-0
+      <div
+        className="absolute xs:bottom-0
           bottom-34 w-full flex 
           justify-center items-center "
-        >
-          <a href="#about">
-            <div className="w-[35px] h-[64px] 
-              rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-                <motion.dev
-                  animate={{
-                    y:[0 ,24, 0],
-                    
-                   
-                  }}
-                  transition={{
-                    duration: 1,
-                    repeat: "Infinity",
-                    repeatType: "loop",
-                  }}
-                  className='w-2 h-4 rounded-full
-                    bg-secondary mb-1'
-                />
-
-            </div>
-
-          </a>
-
-        </div>
+      >
+        <a href="#about">
+          <div
+            className="w-[35px] h-[64px] 
+              rounded-3xl border-4 border-secondary flex justify-center items-start p-2"
+          >
+            <motion.dev
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1,
+                repeat: "Infinity",
+                repeatType: "loop",
+              }}
+              className="w-2 h-4 rounded-full
+                    bg-secondary mb-1"
+            />
+          </div>
+        </a>
+      </div>
     </section>
   );
 };

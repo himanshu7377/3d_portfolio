@@ -58,6 +58,8 @@ const Experience = () => {
       >What I have done so far</p>
       <h2 className={styles.sectionHeadText}
       >Work Experience</h2>
+      <p>below work experience is just for UI, currently i am a fresher looking for my first company ,<br/>
+      if u find this usefull kindly give a change to show my worth,u can conatct me by summitting the contact form in the end </p>
 
     </motion.div>
 
