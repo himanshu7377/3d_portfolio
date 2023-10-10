@@ -32,6 +32,9 @@ import tripguide from "./tripguide.png";
 
 import own from "./own.svg";
 
+import bookmystay from "./bookmystay.png";
+import crypto from "./crypto.png";
+
 export {
   own,
   logo,
@@ -62,4 +65,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  bookmystay,
+  crypto
+  
 };

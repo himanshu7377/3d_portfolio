@@ -19,8 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    bookmystay,
+    crypto,
     tripguide,
     threejs,
   } from "../assets";
@@ -198,9 +198,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Book My Stay",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage hotels  from various providers, providing a convenient and efficient solution for stays needs.",
       tags: [
         {
           name: "react",
@@ -215,13 +215,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: bookmystay,
+      source_code_link: "https://lively-souffle-dd40d9.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Cryptoverse",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for crypto currency,view and see the latest news of cryptocurrency and see the price change using chart.js.",
       tags: [
         {
           name: "react",
@@ -236,8 +236,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: crypto,
+      source_code_link: "https://stellular-mandazi-0d27f3.netlify.app/",
     },
     {
       name: "Trip Guide",
