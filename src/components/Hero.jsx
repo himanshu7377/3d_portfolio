@@ -36,7 +36,7 @@ const Hero = () => {
             className={`${styles.heroSubText} mt-2
             text-white-100 `}
           >
-            i am web developer, this is my first project using three.js,
+            i am web developer, this is my  project using three.js,
             <br className="sm:block hidden" /> makeing a 3D portfolio.
           </p>
         </div>

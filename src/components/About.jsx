@@ -57,7 +57,7 @@ const ServiceCard = ({index,title,icon})=>{
         I'm a skilled software developer with
         experience in TypeScript add
         javascript,and expertise in frameworks
-        like React, Node.js, add
+        like React,Next.js, Node.js, add
         Three.js. I'm a quick learner and 
         collaborate closely with cilents to 
         create efficient ,scalable and 
