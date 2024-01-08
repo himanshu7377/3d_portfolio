@@ -11,7 +11,7 @@ const Hero = () => {
     >
       <div
         className={`${styles.paddingX} absolute
-    insert -0 top-[120px] max-w-7xl mx-auto flex
+    insert-1 top-[120px] max-w-7xl mx-auto flex
     flex-row items-start gap-5`}
       >
         <div
