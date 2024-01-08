@@ -17,8 +17,9 @@ import {
     docker,
     bookmystay,
     crypto,
-    tripguide,
+    thread,
     threejs,
+    tripguide,
   } from "../assets";
   
   export const navLinks = [
@@ -212,9 +213,9 @@ import {
       source_code_link: "https://stellular-mandazi-0d27f3.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Thread clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A dynamic thread cloning project that facilitates the seamless replication of discussions & conversations Users can effortlessly follow and exchanges each other",
       tags: [
         {
           name: "nextjs",
@@ -229,7 +230,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image:thread,
       source_code_link: "https://github.com/",
     },
   ];

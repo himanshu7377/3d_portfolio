@@ -34,7 +34,7 @@ import own from "./own.svg";
 
 import bookmystay from "./bookmystay.png";
 import crypto from "./crypto.png";
-
+import thread from './thread.png'
 export {
   own,
   logo,
@@ -53,6 +53,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  thread,
   reactjs,
   redux,
   tailwind,
