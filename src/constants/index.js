@@ -113,7 +113,7 @@ import {
   
   const experiences = [
     {
-      title: "Full Stack Developer ",
+      title: "Front-End Developer ",
       company_name: "InstaDukan",
       icon: backend,
       iconBg: "#383E56",
@@ -126,19 +126,7 @@ import {
       ],
     },
     
-    {
-      title: "Web Developer",
-      company_name: "Pricies Crew",
-      icon: backend,
-      iconBg: "#383E56",
-      date: "sept 2022 -  oct 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
    
   ];
   
