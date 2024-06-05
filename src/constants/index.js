@@ -118,7 +118,7 @@ import {
       company_name: "InstaDukan",
       icon: backend,
       iconBg: "#383E56",
-      date: "Nov 2023 ",
+      date: "Nov 2023 - Feb 2024",
       points: [
         "Developing and maintaining web applications using Next.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -148,17 +148,17 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Himanshu proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Suriya",
+      designation: "CTO",
+      company: "CoreWayLabs",
+      image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Himanshu does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      name: "Mukesh",
+      designation: "Director",
+      company: "S.M Upvc and Glass Decor",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
