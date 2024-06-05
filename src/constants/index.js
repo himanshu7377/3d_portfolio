@@ -19,7 +19,8 @@ import {
     crypto,
     thread,
     threejs,
-    tripguide,
+    image,
+    corewaylab
   } from "../assets";
   
   export const navLinks = [
@@ -125,6 +126,19 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "Operations Executive",
+      company_name: "KreditBee",
+      icon: backend,
+      iconBg: "#383E56",
+      date: "jan 2022  - sep 2023",
+      points: [
+       " Boosted loan disbursal by 5% through strategic implementation, demonstrating operational prowess and contributing to business growth.",
+       
+        "Successfully managed daily email escalations and payment issues, leading to a 15% decrease in delays and a 25% reduction in refund processing time.",
+        "Increased brand visibility and user engagement by 25% through effective management of marketing and campaignoperations, leading to a 20% rise in customer acquisition and brand loyalty",
+      ],
+    },
     
     
    
@@ -133,7 +147,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Himanshu proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -141,7 +155,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Himanshu does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -149,7 +163,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Himanshu optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -222,5 +236,51 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+
+  const clientWork =[
+    {
+      name: "S.M. Upvc and Glass ",
+      description:
+        "A Dynamic , UserFriendly and  Responsive website showcasing the products of S.M. Upvc and Glass Decor.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:image,
+      source_code_link: "https://smupvcandglassdecor.in/",
+    },
+    {
+      name: "CoreWayLabs",
+      description:
+        "A Dynamic , UserFriendly and  Responsive website showcasing the products corewaylabs.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:corewaylab,
+      source_code_link: "https://corewaylabs.com/",
+    },
+  ] 
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, clientWork };

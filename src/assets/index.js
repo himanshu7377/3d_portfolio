@@ -35,6 +35,8 @@ import own from "./own.svg";
 import bookmystay from "./bookmystay.png";
 import crypto from "./crypto.png";
 import thread from './thread.png'
+import image from './image.png'
+import corewaylab from './corewaylab.png'
 export {
   own,
   logo,
@@ -67,6 +69,8 @@ export {
   jobit,
   tripguide,
   bookmystay,
-  crypto
+  crypto,
+  image,
+  corewaylab
   
 };

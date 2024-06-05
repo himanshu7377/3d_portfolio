@@ -25,7 +25,7 @@ const Navbar = () => {
             <img src={own} alt='logo' className='w-9 h-9 object-contain'/>
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>
               Himanshu Singh &nbsp;
-              <span className='sm:block hidden'>|Software Developer</span>
+              <span className='sm:block hidden'>| &nbsp; Software Developer</span>
             </p>
         </Link>
         <div className='flex flex-grow justify-end'>
